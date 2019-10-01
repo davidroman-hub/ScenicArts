@@ -1,0 +1,36 @@
+.main-logo{
+  padding: 5px 20px 5px 0px; 
+}
+
+
+
+.site-navbar{
+  background-color:white;
+padding: 5px 20px 5px 0px; //margen
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; //letra
+font-size: 20px;
+opacity: 0.9;
+
+
+}
+
+.pages-item{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+
+}
+.item{
+  text-decoration: none;
+  color: black;
+}
+.item:active{
+  color: #B3B526;
+}
+.item:hover{
+  font-size: 21px;
+  opacity: 0.7;
+}
+
