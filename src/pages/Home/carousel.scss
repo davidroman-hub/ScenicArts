@@ -11,5 +11,12 @@
    //border-bottom: 200px solid grey;
    //margin: top right bottom left;
 
-  
+}
+
+
+@media(max-width:769px) {
+  .carousel{
+    border-right: 50px solid white;
+    border-left: 23px solid white;
+  }
 }

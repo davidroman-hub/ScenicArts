@@ -18,43 +18,43 @@ export default () => (
   
     <div>
       <img alt="Variaciones" src={Scenic01} />
-      <p className="legend">Variaciones</p>
+      
     </div>
     <div>
       <img  alt="Coreograficas" src={Scenic02} />
-      <p className="legend">Coreograficas</p>
+      
     </div>
     <div>
       <img  alt="03" src={Scenic03} />
-      <p className="legend">Ensayo</p>
+      
     </div>
     <div>
       <img alt="04" src={Scenic04} />
-      <p className="legend">Ensayo</p>
+      
     </div>
     <div>
       <img alt="05" src={Scenic05} />
-      <p className="legend">Preparacion</p>
+     
     </div>
     <div>
       <img alt="06" src={Scenic06} />
-      <p className="legend">Preparacion</p>
+     
     </div>
     <div>
       <img  alt="06"src={Scenic07} />
-      <p className="legend">Ensayo</p>
+      
     </div>
     <div>
       <img alt="07" src={Scenic08} />
-      <p className="legend">Preparacion</p>
+      
     </div>
     <div>
       <img alt="08" src={Scenic09} />
-      <p className="legend">Ensayo</p>
+      
     </div>
     <div>
       <img alt="09" src={Scenic10} />
-      <p className="legend">Evento</p>
+      
     </div>
     {/* <div>
       <img src="http://lorempixel.com/output/cats-q-c-640-480-10.jpg" />
