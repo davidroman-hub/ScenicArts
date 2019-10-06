@@ -1,45 +1,60 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "./carousel.scss";
-import sceniC1 from './images/sceniC1.jpg'
-import sceniC2 from './images/sceniC2.jpg'
-import sceniC3 from './images/sceniC3.jpg'
-import sceniC4 from './images/sceniC4.jpg'
-import sceniC5 from './images/sceniC5.jpg'
-import sceniC6 from './images/sceniC6.jpg'
-
+import "./carousel.scss"
+import Scenic01 from './images/vari.jpg'
+import Scenic02 from './images/cori.jpg'
+import Scenic03 from './images/Scenic03.jpg'
+import Scenic04 from './images/Scenic04.jpg'
+import Scenic05 from './images/Scenic05.jpg'
+import Scenic06 from './images/Scenic06.jpg'
+import Scenic07 from './images/Scenic07.jpg'
+import Scenic08 from './images/Scenic08.jpg'
+import Scenic09 from './images/Scenic09.jpg'
+import Scenic10 from './images/Scenic10.jpg'
 
 export default () => (
   <Carousel className="carousel" autoPlay>
     
   
     <div>
-      <img alt="foto1"src={sceniC1} />
-      <p className="legend">variaciones</p>
+      <img alt="Variaciones" src={Scenic01} />
+      <p className="legend">Variaciones</p>
     </div>
     <div>
-      <img src={sceniC2} />
-      <p className="legend">Legend 3</p>
+      <img  alt="Coreograficas" src={Scenic02} />
+      <p className="legend">Coreograficas</p>
     </div>
     <div>
-      <img src={sceniC3} />
-      <p className="legend">Legend 4</p>
+      <img  alt="03" src={Scenic03} />
+      <p className="legend">Ensayo</p>
     </div>
     <div>
-      <img src={sceniC4} />
-      <p className="legend">Legend 5</p>
+      <img alt="04" src={Scenic04} />
+      <p className="legend">Ensayo</p>
     </div>
     <div>
-      <img src={sceniC5} />
-      <p className="legend">Legend 6</p>
+      <img alt="05" src={Scenic05} />
+      <p className="legend">Preparacion</p>
     </div>
     <div>
-      <img src={sceniC6} />
-      <p className="legend">Legend 7</p>
+      <img alt="06" src={Scenic06} />
+      <p className="legend">Preparacion</p>
     </div>
     <div>
-      <img src={sceniC1} />
-      <p className="legend">Legend 8</p>
+      <img  alt="06"src={Scenic07} />
+      <p className="legend">Ensayo</p>
+    </div>
+    <div>
+      <img alt="07" src={Scenic08} />
+      <p className="legend">Preparacion</p>
+    </div>
+    <div>
+      <img alt="08" src={Scenic09} />
+      <p className="legend">Ensayo</p>
+    </div>
+    <div>
+      <img alt="09" src={Scenic10} />
+      <p className="legend">Evento</p>
     </div>
     {/* <div>
       <img src="http://lorempixel.com/output/cats-q-c-640-480-10.jpg" />
