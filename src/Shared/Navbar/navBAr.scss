@@ -56,9 +56,21 @@ padding: 0 1rem;
    color: #B3B526;
  }
 
- @media (min-width:940px){
-   li{
-     font-size: 20px;
-   }
+
+ @media (max-width: 768px){ /* es solo para que se vea en modo movil usuarios*/
+  .pages-item{
+    display: none;
+  }
+}
+
+
+ @media (min-width:769px){
+  .nav-bar_toggle_button{
+    display: none;
+  } 
+  
+    li{
+       font-size: 19px;
+     }
  }
  
