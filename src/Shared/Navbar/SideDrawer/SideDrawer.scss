@@ -1,5 +1,5 @@
 .side-drawer{
-   height: 52%;
+   height: 30%;
    background:white;
  box-shadow: 1px 0px 7px rgb(0, 0, 0.5);
   position: fixed;
@@ -10,7 +10,7 @@
    z-index: 200;
  transform: translateX(-100%);/* la animacion de transform translatex*/
  transition: transform 0.3s ease-out;
- font-size: 25px;
+ font-size: 15px;
  border-radius: 4px;
  
  
@@ -21,7 +21,7 @@
  }
 
  .side-drawer ul {
- height:70%;
+ height:80%;
   list-style: none;
  display: flex;
 flex-direction: column;
@@ -32,7 +32,9 @@ flex-direction: column;
 }
  .side-drawer li{
   border:1px solid ; 
-  margin: 0.5rem, 0;
+  //margin: 0.5rem, 0;
+  border-right: 50px solid white;
+    border-left: 23px solid white;
    
    
  }
