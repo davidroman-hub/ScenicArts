@@ -21,11 +21,11 @@ export default () => (
       
     </div>
     <div>
-      <img  alt="Coreograficas" src={Scenic02} />
+      <img  alt="Coreograficas" src={Scenic01} />
       
     </div>
     <div>
-      <img  alt="03" src={Scenic03} />
+      <img  alt="03" src={Scenic02} />
       
     </div>
     <div>
@@ -53,7 +53,7 @@ export default () => (
       
     </div>
     <div>
-      <img alt="09" src={Scenic01} />
+      <img alt="09" src={Scenic03} />
       
     </div>
     {/* <div>
