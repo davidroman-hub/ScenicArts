@@ -1,16 +1,16 @@
 .side-drawer{
-   height: 30%;
+   height: 27%;
    background:white;
  box-shadow: 1px 0px 7px rgb(0, 0, 0.5);
   position: fixed;
    top: 0;
    left:1;
-   width: 45%;
+   width: 48%;
    max-width:400px ;
    z-index: 200;
  transform: translateX(-100%);/* la animacion de transform translatex*/
  transition: transform 0.3s ease-out;
- font-size: 15px;
+ font-size: 16px;
  border-radius: 4px;
  
  

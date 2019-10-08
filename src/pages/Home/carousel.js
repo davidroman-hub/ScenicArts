@@ -17,7 +17,7 @@ export default () => (
     
   
     <div>
-      <img alt="Variaciones" src={Scenic01} />
+      <img alt="Variaciones" src={Scenic10} />
       
     </div>
     <div>
@@ -53,7 +53,7 @@ export default () => (
       
     </div>
     <div>
-      <img alt="09" src={Scenic10} />
+      <img alt="09" src={Scenic01} />
       
     </div>
     {/* <div>

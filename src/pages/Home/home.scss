@@ -1,0 +1,21 @@
+.Introduccion{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.Introduccion p {
+/* hacia arriba -- pegado al lado izquierdo  -- espacios entre arriba*/
+    padding: 5px 50px 5px; 
+}
+
+.Introduccion h1, h2 {
+    padding: 5px 50px 5px; 
+//  background-image: url(./images/abii.PNG);
+//  background-repeat: no-repeat;   
+}
+
+.AbigailScenic{
+    width: 500px;
+    display: flex;
+    float: left;
+    border-left: 50px solid white;
+}
