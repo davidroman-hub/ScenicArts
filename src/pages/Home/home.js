@@ -5,7 +5,7 @@ import './home.scss'
 import Carousel from "./carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 //import carousel from './carousel';
-import logoss from './images/descarga.png'
+import logoss from './images/dancingA.png'
 
 
 //component 
