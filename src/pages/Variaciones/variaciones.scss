@@ -1,0 +1,15 @@
+.variaciones{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.variaciones h1, p {
+    padding: 5px 50px 5px;
+}
+
+.variaciones img{
+    width: 100%; //responsive
+    height: auto; //responsive
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
