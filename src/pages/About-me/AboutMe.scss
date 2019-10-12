@@ -1,0 +1,23 @@
+.AboutMe{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.AboutMe h1,h2,h3, p {
+    padding: 5px 50px 5px;
+}
+
+.AboutMe img{
+    width: 100%; //responsive
+    height: auto; //responsive
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mezcalPhoto img {
+    padding: 5px 50px 5px;
+    width: 100%; //responsive
+    height: auto; //responsive
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

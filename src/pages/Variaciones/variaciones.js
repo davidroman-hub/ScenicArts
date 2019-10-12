@@ -1,6 +1,7 @@
 import React,{Component,Fragment} from 'react'
 import './variaciones.scss'
-import logosss from './photos/dancingB.jpg'
+import DancingB from './photos/dancingB.jpg'
+import Conejos from './photos/Conejos.jpg'
 //component 
 
 class Variaciones extends Component{
@@ -28,13 +29,30 @@ class Variaciones extends Component{
             escucha y las estructuras escénicas para crear otras experiencias estéticas
              al espectador desde una perspectiva que nos pueda dirigir a la grandeza de 
               una totalidad. </p>
-              <p><img alt="xochimilco1" /*width="800px" height="1400px" float="left" display="flex"*/  src={logosss}/></p>
+              <p><img alt="xochimilco1" /*width="800px" height="1400px" float="left" display="flex"*/  src={DancingB}/></p>
        </div>
         <div className="variaciones">
           <p>No interesa el intercambio cultural tejer redes para
              amplificar nuestra sintonía y función, construir a partir 
              de lo que sucede afuera.
           </p>
+          <p>
+          En la composición coreográfica 
+          dirige Abigail Calavera y en colaboración 
+          musicalizan las piezas Carian Paz, Gabriel Tepichin,
+           David Morales y Los 400 Conejos Ebrios.
+          </p>
+          <p>
+            <img alt="400Conejos" src={Conejos}></img>
+          </p>
+          <p>
+          En sus volúmenes y en la presentación de cada 
+          “Variación” invitamos a proyectos escénicos a
+           compartir este enfoque volviéndolo así, encuentros de 
+           danzas y experimentaciones en un espacio que busca la 
+           comunión artística. 
+          </p>
+          
           </div>
       </Fragment>
     )
