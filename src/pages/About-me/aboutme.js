@@ -5,6 +5,7 @@ import Ensamble from './Photos/Ensamble1.jpg'
 import FlorCalavera from'./Photos/FlorCalavera2.jpg'
 import Contextos from './Photos/Contextos.jpg'
 import mezCal from './Photos/mezcalR.jpg'
+import bellasArtes from './Photos/bellasArtes.jpg'
 //component 
 
 class AboutMe extends Component{
@@ -63,7 +64,6 @@ class AboutMe extends Component{
         <p>
           <img alt="Contextos" src={Contextos}/>
         </p>
-        </div>
         <p>
         Dentro de su trabajo visual, estudió video arte en la antigua ENAP 
         de la UNAM con el profesor Sergio Medrano y en algunos talleres de
@@ -72,15 +72,10 @@ class AboutMe extends Component{
         como fotógrafa y asistente de producción en “Ftc Studio”, asistiendo
         a muchos eventos sociales, como conciertos de música, danza, teatro,
         graduaciones, entre otros más.
+        <img alt="bellasArtes" src={bellasArtes}/>
         </p>
-        <div className="mezcalPhoto">
-          <img alt="Mezcal" src={mezCal}/>
         </div>
-        <p>
-
-          hola mundo
-
-        </p>
+        
       </Fragment>
     )
   }
