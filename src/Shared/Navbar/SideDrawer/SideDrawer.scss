@@ -1,17 +1,18 @@
 .side-drawer{
-   height: 27%;
+   height: 35%;
    background:white;
  box-shadow: 1px 0px 7px rgb(0, 0, 0.5);
-  position: fixed;
+  position:absolute;
+ // position: fixed;
    top: 0;
    left:1;
    width: 48%;
    max-width:400px ;
    z-index: 200;
- transform: translateX(-100%);/* la animacion de transform translatex*/
+ transform: translateX(-200%);/* la animacion de transform translatex*/
  transition: transform 0.3s ease-out;
  font-size: 16px;
- border-radius: 4px;
+ //border-radius: 4px;
  
  
 
@@ -31,31 +32,18 @@ flex-direction: column;
 
 }
  .side-drawer li{
-  border:1px solid ; 
-  //margin: 0.5rem, 0;
-  border-right: 50px solid white;
-    border-left: 23px solid white;
+  //border:1px solid ; 
+  margin: 0.5rem, 0;
+  border-right: 20px solid white;
+    border-left: 0.5px solid white;
+    padding: 10px 0;
    
    
  }
-
- 
-
-
-
-// .side-drawer a{ 
-//   color: purple;
-//   text-decoration: none;
-//   font-size: 1.2rem;
-// }
-
-//  .side-drawer a:hover,
-//  .side-drawer a:active {
-//    color:#fa923f;
-//  }
 
 @media(min-width:769px) {
    .side-drawer{
      display: none;
    }
  }
+
