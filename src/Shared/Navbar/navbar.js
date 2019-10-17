@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton'
 import './navBAr.scss'
 import logo from './logo.jpg'
-
+import Dropdown from './dropdownmenu'
  const NavbarView = (props) => {
    return (
        <header className= "site-navbar">
@@ -24,6 +24,7 @@ import logo from './logo.jpg'
                  <li><NavLink exact to ="/videos" className="item" activeClassName="is-selected">Videos</NavLink></li>
                  <li><NavLink exact to ="/About-me" className="item" activeClassName="is-selected">Biografía</NavLink>  </li>
                  <li><NavLink exact to ="/Contact-me" className="item" activeClsassName="is-selected"> Contacto</NavLink>  </li>
+                  <li><Dropdown></Dropdown></li>
               </ul>            
              </div>
            
