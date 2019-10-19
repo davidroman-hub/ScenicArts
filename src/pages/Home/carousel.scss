@@ -6,8 +6,8 @@
   position: absolute;
   z-index: 1;
    //border-right: 50px solid blue;
-   border-left: 50px solid white;
-   border-right: 130px solid white;
+   border-left: 100px solid white;
+   border-right: 100px solid white;
    //border-bottom: 200px solid grey;
    //margin: top right bottom left;
 
@@ -16,7 +16,7 @@
 
 @media(max-width:769px) {
   .carousel{
-    border-right: 50px solid white;
+    border-right: 23px solid white;
     border-left: 23px solid white;
   }
 }

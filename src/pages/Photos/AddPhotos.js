@@ -1,6 +1,6 @@
 export const photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+      src: "https://timedotcom.files.wordpress.com/2019/08/better-smartphone-photos.jpg?w=800&quality=85",
       width: 4,
       height: 3
     },

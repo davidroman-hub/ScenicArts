@@ -1,17 +1,7 @@
 
 import React,{Component,Fragment} from 'react'
 import './AboutMe.scss'
-import Ensamble from './Photos/Ensamble1.jpg'
-import FlorCalavera from'./Photos/FlorCalavera2.jpg'
-import Contextos from './Photos/Contextos.jpg'
-import variaciones13 from './Photos/variaciones13.jpg'
-import bellasArtes from './Photos/bellasArtes.jpg'
-import Raices from './Photos/raices.jpg'
-import Ecuador from './Photos/Ecuador.jpg'
-import Descontentos from './Photos/DescontentoS.jpg'
-import Revolcadero from './Photos/RevolcaderoStat.jpg'
-import instalacion from './Photos/InstalacionP.jpg'
-import posee from './Photos/Variaciones12.jpg'
+
 //component 
 
 class AboutMe extends Component{
@@ -36,9 +26,11 @@ class AboutMe extends Component{
              (Marrakech, Ait Ben Haddou Ouarzazate, Merzouga y Montes Atlas) 
              y en Madrid, España en el programa “África Mágica” el 31 de Mayo de 2013.
           </p>
-          <p>
-            <img alt="Ensamble" src={Ensamble}/>
-          </p>
+          
+            <a href='https://i.imgur.com/9KXNWAW.jpg'>
+              <img alt="Ensamble"  src='https://i.imgur.com/9KXNWAW.jpg'></img>
+            </a>
+          
           <p>
            Su formación escénica se ha desarrollado entre la danza 
            contemporánea, la Investigación Coreográfica, la Creación
@@ -51,7 +43,7 @@ class AboutMe extends Component{
            que nos pueda dirigir a la grandeza de una totalidad.
           </p>
           <p>
-            <img alt="FlorCalavera" src={FlorCalavera}/>
+            <img alt="FlorCalavera" src='https://i.imgur.com/j47eFBt.jpg'/>
           </p>
           <p>
           Egresada del Centro de Investigación Coreográfica del Instituto
@@ -68,7 +60,7 @@ class AboutMe extends Component{
           impulsar la cultura y las artes de Xochimilco. 
           </p>
         <p>
-          <img alt="Contextos" src={Contextos}/>
+          <img alt="/" src='https://i.imgur.com/S6UpvAm.jpg'/>
         </p>
         <p>
         Dentro de su trabajo visual, estudió video arte en la antigua ENAP 
@@ -81,7 +73,7 @@ class AboutMe extends Component{
     
         </p>
         <p>
-           <img alt="bellasArtes" src={bellasArtes}/>
+           <img alt="bellasArtes" src='https://i.imgur.com/CokSzFe.jpg'/>
         </p>
         <p>Se ha presentado en diferentes foros y espacios: Foro Experimental 
           Black Box del CENART, Teatro de la Danza, Teatro El Granero y Teatro 
@@ -100,7 +92,7 @@ class AboutMe extends Component{
           Sur Xochimilco S.C.
           </p>
           <p>
-             <img alt="variaciones" src={variaciones13}/>
+             <img alt="variaciones" src='https://i.imgur.com/oOFxMip.jpg'/>
           </p>
           <p>
           Sus más recientes piezas coreográficas son “Tehuantin” pieza en la que colabora
@@ -116,7 +108,7 @@ class AboutMe extends Component{
            en la “Estación Revolcadero” de las prácticas Escénicas del CICO– INBA, Noviembre 2015.
           </p>
           <p>
-            <img alt="" src={Raices}/>
+            <img alt="" src='https://i.imgur.com/6hTtLbs.jpg'/>
           </p>
           <p>
           Fue Intérprete en la coreografía “Con Textos” de Sarai González, de las Prácticas Creativas 
@@ -138,7 +130,7 @@ class AboutMe extends Component{
            de Danza del Instituto tecnológico de Artes del Ecuador (ITAE) en la ciudad de Guayaquil, Ecuador.
           </p>
           <p>
-            <img alt="AquelarreEcuador" src={Ecuador}/>
+            <img alt="AquelarreEcuador" src='https://i.imgur.com/KjoVNWD.jpg'/>
           </p>
           <p>
           FLOR CALAVERA presentando “Aquelarre de una Noche” (Festival Danza la Vida) Celebrando el día Internacional 
@@ -161,7 +153,7 @@ class AboutMe extends Component{
 
           </p>
           <p>
-            <img alt="" src={Descontentos}/>
+            <img alt="" src='https://i.imgur.com/OT0NQrl.jpg'/>
           </p>
           <p>
           Colectivo Ensamble De Teatro Físico presentando “La Ciencia del Cielo Y La Tierra” en el Teatro Julio 
@@ -178,7 +170,7 @@ class AboutMe extends Component{
           participación en el “Festival de las Artes, 2012”. Mayo 24, 2012.
           </p>
           <p>
-            <img alt="" src={Revolcadero}/>
+            <img alt="" src='https://i.imgur.com/CyuNrHT.jpg'/>
           </p>
           <p>
           “Mi cuerpo es inmenso y grande como el universo “YO”, Coreografía de Luz Ureña”, EIA No.2 presentándose en el  
@@ -194,7 +186,7 @@ class AboutMe extends Component{
 
           </p>
           <p>
-            <img alt="" src={instalacion}/>
+            <img alt="" src='https://i.imgur.com/zp57X1g.jpg'/>
           </p>
           <p>
           Participación en muestra de Danza Itinerante, México D.F, Noviembre del 2011. Animal Colectivo Universidad Del Valle De México, 
@@ -209,7 +201,7 @@ class AboutMe extends Component{
           4ta. Semana de la Danza, presentando Danzas Orientales “Riih Nayymah” por Abigail Hernández y Carla Esparza, 24 de Abril del 2008. 
           </p>
           <p>
-            <img alt="" src={posee}/>
+            <img alt="" src='https://i.imgur.com/kyZMrom.jpg'/>
           </p>
           <p>
           

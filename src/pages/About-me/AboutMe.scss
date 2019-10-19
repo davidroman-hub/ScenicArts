@@ -1,4 +1,5 @@
 .AboutMe{
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -12,4 +13,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: .5px solid #ddd;
+    border-radius: 4px;
+    padding: 6px;
+    //max-width: 800px;
+   
+    border-left: 100px solid white;
+    border-right: 100px solid white
+  
 }
+
+// .AboutMe img:hover {
+//     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+//   }
+  
+  
+@media(max-width:750px) {
+    .AboutMe img {
+        //width: auto; //responsive
+        height: auto;
+        border-left: 1px solid white;
+        border-right: 1px solid white
+  
+    
+
+
+    }
+  }
+  
