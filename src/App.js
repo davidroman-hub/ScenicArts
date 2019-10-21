@@ -9,6 +9,8 @@ import Videos from './pages/videos/videos'
 import Variaciones from './pages/Variaciones/variaciones'
 import Backdrop from './Shared/Backdrop/Backdrop'
 import SideDrawer from './Shared/Navbar/SideDrawer/SideDrawer'
+import Photos2 from './Photos2/photos2'
+import FooterV from './Shared/Footer/Footer'
 
 class App extends Component{
     state={
@@ -41,7 +43,9 @@ return(
          <Route exact path='/Home' component={Home}></Route>
          <Route exact path='/videos' component={Videos}></Route>
          <Route exact path='/Photos' component={Photos}></Route>
+         <Route exact path='/Photos2' component={Photos2}></Route>
          <Route exact path='/Variaciones' component={Variaciones}></Route>
+         <FooterV></FooterV>
        </Fragment>
     </BrowserRouter>
       )

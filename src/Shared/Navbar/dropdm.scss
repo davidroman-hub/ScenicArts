@@ -1,0 +1,70 @@
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.button-4{
+    background-color: white;
+    color: black;
+   // padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    //font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.button-4:hover{
+    opacity: 0.7;
+    color:#B3B526
+}
+.button:active{
+    color: #B3B526;
+}
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropDownC {
+    display: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropDownC ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: inherit;
+  }
+  .dropDownC li {
+    color: black;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .item2{
+      text-decoration: none;
+      font-size: 16px;
+      color: black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .item2:hover{
+      color: #B3B526;
+      
+  }
+  

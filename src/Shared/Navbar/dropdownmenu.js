@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import './dropdm.scss'
 
 class Dropdown extends Component{
 
@@ -29,12 +30,12 @@ class Dropdown extends Component{
     render() {
         return (
             <div  className="dropdown" >
-             <div className="button-4" onClick={this.showDropdownMenu}> My Setting </div>
-    
+             <div className="button-4" onClick={this.showDropdownMenu}> Fotografias </div>
+                <div className="dropDownC">
               { this.state.displayMenu ? (
               <ul>
-             <li><NavLink exact to ='/home'>Registro</NavLink></li>
-             <li><a href="#Manage Pages">Manage Pages</a></li>
+             <li><NavLink exact to ='./Photos' className="item2" activeClassName="is-selected">Arte de vida</NavLink></li>
+             <li><NavLink exact to ='./Photos2' className="item2" activeClassName="is-selected"> Otros proyectos</NavLink></li>
              
               </ul>
             ):
@@ -42,7 +43,7 @@ class Dropdown extends Component{
               null
             )
             }
-    
+                </div>
            </div>
     
         );
