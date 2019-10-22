@@ -1,59 +1,49 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "./carousel.scss"
-import Scenic01 from './images/vari.jpg'
-import Scenic02 from './images/cori.jpg'
-import Scenic03 from './images/Scenic03.jpg'
-import Scenic04 from './images/Scenic04.jpg'
-import Scenic05 from './images/Scenic05.jpg'
-import Scenic06 from './images/Scenic06.jpg'
-import Scenic07 from './images/Scenic07.jpg'
-import Scenic08 from './images/Scenic08.jpg'
-import Scenic09 from './images/Scenic09.jpg'
-import Scenic10 from './images/Scenic10.jpg'
 
 export default () => (
   <Carousel className="carousel" autoPlay>
     
   
     <div>
-      <img alt="Variaciones" src={Scenic10} />
+      <img alt="Variaciones" src='https://i.imgur.com/19awrOA.jpg' />
       
     </div>
     <div>
-      <img  alt="Coreograficas" src={Scenic01} />
+      <img  alt="Coreograficas" src='https://i.imgur.com/nzxTUIQ.jpg' />
       
     </div>
     <div>
-      <img  alt="03" src={Scenic02} />
+      <img  alt="03" src='https://i.imgur.com/IdX2jB1.jpg' />
       
     </div>
     <div>
-      <img alt="04" src={Scenic04} />
+      <img alt="04" src='https://i.imgur.com/qrkR0vH.jpg' />
       
     </div>
     <div>
-      <img alt="05" src={Scenic05} />
+      <img alt="05" src='https://i.imgur.com/Xhp4Gsp.jpg' />
      
     </div>
     <div>
-      <img alt="06" src={Scenic06} />
+      <img alt="06" src='https://i.imgur.com/aIv74OI.jpg' />
      
     </div>
     <div>
-      <img  alt="06"src={Scenic07} />
+      <img  alt="06"src='https://i.imgur.com/iTN2yne.jpg' />
       
     </div>
     <div>
-      <img alt="07" src={Scenic08} />
+      <img alt="07" src='https://i.imgur.com/yCDKwmJ.jpg' />
       
     </div>
     <div>
-      <img alt="08" src={Scenic09} />
+      <img alt="08" src='https://i.imgur.com/XZlqEh5.jpg' />
       
     </div>
     <div>
-      <img alt="09" src={Scenic03} />
+      <img alt="09" src='https://i.imgur.com/n2hMQxF.jpg'/>
       
     </div>
     {/* <div>

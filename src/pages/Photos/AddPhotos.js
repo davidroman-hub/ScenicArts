@@ -1,46 +1,76 @@
 export const photos = [
     {
-      src: "https://timedotcom.files.wordpress.com/2019/08/better-smartphone-photos.jpg?w=800&quality=85",
+      src: "https://i.imgur.com/MnvOBOM.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+      src: "https://i.imgur.com/PZCoqQc.jpg",
       width: 1,
       height: 1
     },
     {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+      src: "https://i.imgur.com/4D37xqb.jpg",
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+      src: "https://i.imgur.com/wUfmYSz.jpg",
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+      src: "https://i.imgur.com/F6d1s73.jpg",
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+      src: "https://i.imgur.com/n2hMQxF.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+      src: "https://i.imgur.com/5BebQ8f.jpg",
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+      src: "https://i.imgur.com/Xhp4Gsp.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+      src: "https://i.imgur.com/FOT0mE4.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://i.imgur.com/wUfmYSz.jpg",
+      width: 3,
+      height: 4
+    },
+    {
+      src: "https://i.imgur.com/ZOIqXal.jpg",
+      width: 3,
+      height: 4
+    },
+    {
+      src: "https://i.imgur.com/BBszU7p.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://i.imgur.com/zPt7tTR.jpg",
+      width: 3,
+      height: 4
+    },
+    {
+      src: "https://i.imgur.com/r1I9T0d.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://i.imgur.com/8B4CUMd.jpg",
       width: 4,
       height: 3
     }

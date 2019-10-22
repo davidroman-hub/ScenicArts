@@ -8,18 +8,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import logoss from './images/dancingA.png'
 
 
-//component 
-
-  // class home extends Component{
-  //   render() {
-  //     return(
-  //       <Fragment>
-  //         <Carousel></Carousel>
-  //       </Fragment>
-  //     )
-  //  }
-  // }
-
   class home extends Component{
      render() {
          return(
