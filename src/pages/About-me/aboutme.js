@@ -27,9 +27,9 @@ class AboutMe extends Component{
              y en Madrid, España en el programa “África Mágica” el 31 de Mayo de 2013.
           </p>
           
-            <a href='https://i.imgur.com/9KXNWAW.jpg'>
+            <p>
               <img alt="Ensamble"  src='https://i.imgur.com/9KXNWAW.jpg'></img>
-            </a>
+            </p>
           
           <p>
            Su formación escénica se ha desarrollado entre la danza 

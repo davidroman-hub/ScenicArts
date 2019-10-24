@@ -9,14 +9,14 @@ function FooterV() {
                 {/* <h1> Abigail C</h1>
                 <h3> Sigueme en mis redes sociales</h3> */}
                
-                    <a href='https://www.instagram.com/variacionescoreograficas/' target='_blank'>
+                    <a href='https://www.instagram.com/variacionescoreograficas/' target='_blank' rel='noopener noreferrer'>
                       < i className='fa fa-instagram'/>
                       </a>
                    
-                    <a href='https://www.facebook.com/feriadeartesescenicas/' target='_blank'>
+                    <a href='https://www.facebook.com/feriadeartesescenicas/' target='_blank'rel='noopener noreferrer'>
                      < i className='fa fa-facebook'/>
                     </a>
-                    <a href='https://www.flickr.com/photos/abigailcalavera/' target='_blank'>
+                    <a href='https://www.flickr.com/photos/abigailcalavera/' target='_blank'rel='noopener noreferrer'>
                      < i className='fa fa-flickr'/>
                     </a>
                    

@@ -34,7 +34,7 @@ class Videos extends Component{
           se adaptan y coexisten en este diálogo. Son solos que se acompañam en sus
           diferentes facetas, sensaciones, momentos, estados que les acontecen, premuras,
           conflictos que los envuelve esta sociedad, como se equilibra el uno con el otro,
-          como guían su existencia y cómo van construyendo "Su Identidad Colectiva".
+          como guían su existencia y cómo van construyendo "Su Identidad Colectiva". baaa
 
         </p>
         </div>

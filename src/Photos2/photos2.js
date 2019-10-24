@@ -1,5 +1,4 @@
-import React,{Component,Fragment, useState, useCallback} from 'react'
-import { render } from 'react-dom'
+import React,{Fragment, useState, useCallback} from 'react'
 import Gallery from 'react-photo-gallery'
 import Carousel, {Modal,ModalGateway} from 'react-images'
 import { photos } from './AddPhotos2'
