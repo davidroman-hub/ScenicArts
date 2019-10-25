@@ -28,7 +28,7 @@ input[type=text],input[type=email],select,textarea{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input[type=submit]{
+button {
     background-color:black;
     color: white;
     padding: 12px 20px;
@@ -38,7 +38,7 @@ input[type=submit]{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input[type=submit]:hover{
+button:hover{
 background-color: #B3B526;
 }
 
