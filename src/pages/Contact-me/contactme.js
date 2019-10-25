@@ -107,7 +107,7 @@
 class ContactMe extends Component{
   render() {
       return(
-        <form name="contact" method="post">
+        <form name="contact" method="post" data-netlify='true'>
         <p>
           <label>Your Name: <input type="text" name="name"/></label>
         </p>
