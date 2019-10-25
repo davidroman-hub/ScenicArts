@@ -201,7 +201,7 @@ class AboutMe extends Component{
           4ta. Semana de la Danza, presentando Danzas Orientales “Riih Nayymah” por Abigail Hernández y Carla Esparza, 24 de Abril del 2008. 
           </p>
           <p>
-            <img alt="" src='https://i.imgur.com/kyZMrom.jpg'/>
+            <img alt="" src='https://i.imgur.com/B12I8WO.jpg'/>
           </p>
           <p>
           
