@@ -2,7 +2,7 @@ import React from 'react'
 import NetlifyForm from 'react-netlify-form'
  
 export default () => (
-<NetlifyForm name='Contact Form'>
+<NetlifyForm name='Contact Form' method='POST' data-netlify="true">
   {({ loading, error, success }) => (
     <div>
       {loading &&
@@ -18,7 +18,8 @@ export default () => (
         <div>
           <input type='text' name='Name' required />
           <textarea name='Message' required />
-          <button>Submit</button>
+          <button>Submit</button> 
+    
         </div>
       }
     </div>
